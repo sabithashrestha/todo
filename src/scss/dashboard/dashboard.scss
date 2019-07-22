@@ -1,0 +1,56 @@
+.dashboard {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #eeaeca, #94bbe9);
+
+  button {
+    width: 200px;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: #4a6fa5;
+    font-size: 15px;
+    color: #ffffff;
+    outline: none;
+
+    &:hover {
+      box-shadow: 5px 5px 10px #fff8;
+      cursor: pointer;
+      border-color: #4a6fa5;
+      background-color: #ffffff;
+      color: #4a6fa5;
+      font-size: 16px;
+    }
+  }
+
+  h1 {
+    color: #5a8252;
+  }
+
+  &_btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &_reports {
+    border-left: dashed 2px #fff;
+    padding-left: 20px;
+  }
+
+  &_header {
+    color: #5a8252;
+    background: #dbe9ee;
+
+    button {
+      width: 90px;
+    }
+  }
+
+  &_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+}

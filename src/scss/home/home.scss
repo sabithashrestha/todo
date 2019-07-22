@@ -1,0 +1,149 @@
+.homepage {
+  height: 100vh;
+  // margin-top: 100px;
+
+  &_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &_contents {
+    // display: inline-block;
+    align-content: center;
+    width: 50%;
+    float: right;
+    // margin-left: 100px;
+    button {
+      width: 100px;
+      height: 7vh;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 15px;
+      background-color: #4a6fa5;
+      font-size: 15px;
+      color: #ffffff;
+      outline: none;
+
+      &:hover {
+        box-shadow: 5px 5px 10px #fff8;
+        cursor: pointer;
+        border-color: #4a6fa5;
+        background-color: #ffffff;
+        color: #4a6fa5;
+        font-size: 16px;
+      }
+    }
+  }
+  &_visible {
+    width: 90%;
+    // display: grid;
+    // align-items: start;
+
+    // &:first-child {
+    //   align-self: center;
+    // }
+  }
+}
+// SIGN UP PAGE
+.signup {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+  h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  &_inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin-top: 30px;
+    input {
+      width: 200px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: left;
+      font-size: 16px;
+      padding-left: 8px;
+      outline: none;
+    }
+    button {
+      width: 200px;
+      border-radius: 10px;
+      padding: 12px;
+      margin-top: 10px;
+      margin-left: 15px;
+      background-color: #4a6fa5;
+      font-size: 15px;
+      color: #ffffff;
+      outline: none;
+
+      &:hover {
+        box-shadow: 5px 5px 10px #fff8;
+        cursor: pointer;
+        border-color: #4a6fa5;
+        background-color: #ffffff;
+        color: #4a6fa5;
+        font-size: 16px;
+      }
+    }
+  }
+}
+// LOGIN PAGE
+.login {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+
+  h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  &_inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-top: 30px;
+
+    input {
+      width: 200px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: left;
+      font-size: 16px;
+      padding-left: 8px;
+      outline: none;
+    }
+
+    button {
+      width: 200px;
+      border-radius: 10px;
+      padding: 12px;
+      margin-top: 10px;
+      margin-left: 15px;
+      background-color: #4a6fa5;
+      font-size: 15px;
+      color: #ffffff;
+      outline: none;
+
+      &:hover {
+        box-shadow: 5px 5px 10px #fff8;
+        cursor: pointer;
+        border-color: #4a6fa5;
+        background-color: #ffffff;
+        color: #4a6fa5;
+        font-size: 16px;
+      }
+    }
+  }
+}

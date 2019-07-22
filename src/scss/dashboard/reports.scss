@@ -1,0 +1,47 @@
+.daily {
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(21, 143, 16);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid rgb(219, 34, 34);
+    padding: 10px 20px;
+  }
+
+  th {
+    background-color: rgb(236, 136, 136);
+  }
+
+  td {
+    text-align: center;
+  }
+}
+
+.all {
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(21, 143, 16);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid rgb(219, 34, 34);
+    padding: 10px 20px;
+  }
+
+  th {
+    background-color: rgb(236, 136, 136);
+  }
+
+  td {
+    text-align: center;
+  }
+}
